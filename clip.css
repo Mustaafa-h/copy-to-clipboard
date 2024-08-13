@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #79abff;
+}
+
+.txtbox{
+    position: relative;
+    background: #fff;
+    width: 650px;
+    margin: 10px;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(1, 1, 1 / 10%);
+}
+
+.txtbox .toparea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.txtbox .toparea h2{
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+.txtbox .toparea .copybtn{
+    background: #eee;
+    color: #999;
+    font-size: 1.5em;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.txtbox .toparea .copybtn:hover{
+    color: #222;
+}
+
+.txtbox textarea{
+    width: 100%;
+    min-height: 450px;
+    font-size: 1em;
+    padding: 10px;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #009fef;
+}
